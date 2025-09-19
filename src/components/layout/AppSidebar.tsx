@@ -30,14 +30,16 @@ import { Button } from "@/components/ui/button";
 
 const navigationItems = [
   { title: "Home", url: "/", icon: Home },
+  { title: "Upload & Ask", url: "/app", icon: Search },
   { title: "Dashboard", url: "/dashboard", icon: BarChart3 },
   { title: "Reports History", url: "/reports", icon: FileText },
-  { title: "Billing & Usage", url: "/billing", icon: CreditCard },
+  { title: "Billing/Usage", url: "/billing", icon: CreditCard },
+  { title: "Profile", url: "/profile", icon: User },
 ];
 
 const quickActions = [
-  { title: "New Research", url: "/", icon: Search },
-  { title: "AI Assistant", url: "/assistant", icon: Brain },
+  { title: "New Research", url: "/app", icon: Search },
+  { title: "AI Assistant", url: "/app", icon: Brain },
 ];
 
 export function AppSidebar() {

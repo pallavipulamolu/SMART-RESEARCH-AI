@@ -60,7 +60,6 @@ export default {
         },
         research: {
           primary: "hsl(var(--research-primary))",
-          secondary: "hsl(var(--research-secondary))",
           accent: "hsl(var(--research-accent))",
           neutral: "hsl(var(--research-neutral))",
         },
@@ -77,8 +76,8 @@ export default {
       },
       backgroundImage: {
         "gradient-primary": "var(--gradient-primary)",
-        "gradient-secondary": "var(--gradient-secondary)",
         "gradient-accent": "var(--gradient-accent)",
+        "gradient-hero": "var(--gradient-hero)",
       },
       boxShadow: {
         "research-sm": "var(--shadow-sm)",

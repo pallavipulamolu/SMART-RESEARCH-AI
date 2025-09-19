@@ -32,9 +32,9 @@
     --muted: 210 25% 95%;
     --muted-foreground: 215 15% 45%;
 
-    /* Accent - Bright research blue */
-    --accent: 217 91% 60%;
-    --accent-hover: 217 91% 55%;
+    /* Accent - Teal accent color as requested */
+    --accent: 180 84% 50%;
+    --accent-hover: 180 84% 45%;
     --accent-foreground: 0 0% 100%;
 
     /* Status colors */
@@ -52,8 +52,8 @@
 
     /* Gradients for hero sections */
     --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(217 91% 70%));
-    --gradient-secondary: linear-gradient(135deg, hsl(214 32% 96%), hsl(210 25% 95%));
-    --gradient-accent: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(230 80% 65%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(180 84% 50%), hsl(180 84% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(180 84% 50%) 100%);
 
     /* Shadows for depth */
     --shadow-sm: 0 1px 2px 0 hsl(215 25% 15% / 0.05);
@@ -63,8 +63,7 @@
 
     /* Research-specific colors */
     --research-primary: 217 91% 60%;
-    --research-secondary: 230 80% 65%;
-    --research-accent: 200 90% 55%;
+    --research-accent: 180 84% 50%;
     --research-neutral: 215 15% 45%;
 
     --radius: 0.75rem;
